@@ -3,14 +3,6 @@ import { Navigate, useNavigate, Link } from "react-router-dom"
 const Login = () => {
     return (
         <>
-            {/*
-          This example requires updating your template:
-  
-          ```
-          <html class="h-full bg-white">
-          <body class="h-full">
-          ```
-        */}
             <div className="flex min-h-full flex-1 items-center justify-center px-4 py-12 sm:px-6 lg:px-8">
                 <div className="w-full max-w-sm space-y-10">
                     <div>
@@ -24,7 +16,7 @@ const Login = () => {
                         </h2>
                     </div>
                     <form className="space-y-6" action="#" method="POST">
-                        <div className="relative -space-y-px rounded-md shadow-sm">
+                        <div className="relative -space-y-px rounded-md shadow-sm md-10">
                             <div className="pointer-events-none absolute inset-0 z-10 rounded-md ring-1 ring-inset ring-gray-300" />
                             <div>
                                 <label htmlFor="email-address" className="sr-only">

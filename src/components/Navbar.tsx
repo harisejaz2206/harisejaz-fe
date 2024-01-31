@@ -43,7 +43,7 @@ const Navbar = () => {
         <header className="bg-white">
             <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
                 <div className="flex lg:flex-1">
-                    <a href="#" className="-m-1.5 p-1.5">
+                    <a href="/" className="-m-1.5 p-1.5">
                         <span className="sr-only">Your Company</span>
                         <img className="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600" alt="" />
                     </a>
@@ -60,9 +60,9 @@ const Navbar = () => {
                 </div>
                 <Popover.Group className="hidden lg:flex lg:gap-x-12">
                     <Popover className="relative">
-                        <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-                            Product
-                            <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+                        <Popover.Button className="flex items-center gap-x-1 text-sm font-bold leading-6 text-black-500">
+                            What I Do
+                            <ChevronDownIcon className="h-5 w-5 flex-none text-black-500" aria-hidden="true" />
                         </Popover.Button>
 
                         <Transition
@@ -110,17 +110,17 @@ const Navbar = () => {
                         </Transition>
                     </Popover>
 
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                        Features
+                    <a href="#" className="text-sm font-bold leading-6 text-black-500">
+                        The Work
                     </a>
-                    <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-                        Marketplace
+                    <a href="#" className="text-sm font-bold leading-6 text-black-500">
+                        The Why
                     </a>
 
                     <Popover className="relative">
-                        <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
-                            Company
-                            <ChevronDownIcon className="h-5 w-5 flex-none text-gray-400" aria-hidden="true" />
+                        <Popover.Button className="flex items-center gap-x-1 text-sm font-bold leading-6 text-black-500">
+                            My Blog
+                            <ChevronDownIcon className="h-5 w-5 flex-none text-black-500" aria-hidden="true" />
                         </Popover.Button>
 
                         <Transition
@@ -149,7 +149,7 @@ const Navbar = () => {
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <Link to="/login">
                         <a onClick={() => navigate("/login")} className="text-sm font-semibold leading-6 text-gray-900">
-                            Log innn <span aria-hidden="true">&rarr;</span>
+                            Log in <span aria-hidden="true">&rarr;</span>
                         </a>
                     </Link>
                 </div>
