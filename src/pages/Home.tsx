@@ -1,5 +1,5 @@
-import Hero from "../components/Hero";
-import ThreeBlogsDisplay from "../components/Three-blogs";
+import Hero from "../components/home.hero";
+import ThreeBlogsDisplay from "../components/home.three-blogs";
 
 
 const Home = () => {
