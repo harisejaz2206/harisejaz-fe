@@ -113,8 +113,8 @@ const Navbar = () => {
                     <a href="#" className="text-sm font-bold leading-6 text-black-500">
                         The Work
                     </a>
-                    <a href="#" className="text-sm font-bold leading-6 text-black-500">
-                        The Why
+                    <a href="/aboutme" className="text-sm font-bold leading-6 text-black-500">
+                        About Me
                     </a>
 
                     <Popover className="relative">

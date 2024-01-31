@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Hero from "./components/Hero";
+import AboutMe from "./pages/AboutMe";
 
 function App() {
   return (
@@ -20,6 +20,14 @@ function App() {
           path="/login"
           element={
             <Login />
+          }
+        />
+        <Route
+          path="/aboutme"
+          element={
+            <Layout>
+              <AboutMe />
+            </Layout>
           }
         />
       </Routes>
