@@ -116,35 +116,10 @@ const Navbar = () => {
                     <a href="/aboutme" className="text-sm font-bold leading-6 text-black-500">
                         About Me
                     </a>
+                    <a href="/blog" className="text-sm font-bold leading-6 text-black-500">
+                        My Blog
+                    </a>
 
-                    <Popover className="relative">
-                        <Popover.Button className="flex items-center gap-x-1 text-sm font-bold leading-6 text-black-500">
-                            My Blog
-                            <ChevronDownIcon className="h-5 w-5 flex-none text-black-500" aria-hidden="true" />
-                        </Popover.Button>
-
-                        <Transition
-                            as={Fragment}
-                            enter="transition ease-out duration-200"
-                            enterFrom="opacity-0 translate-y-1"
-                            enterTo="opacity-100 translate-y-0"
-                            leave="transition ease-in duration-150"
-                            leaveFrom="opacity-100 translate-y-0"
-                            leaveTo="opacity-0 translate-y-1"
-                        >
-                            <Popover.Panel className="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg ring-1 ring-gray-900/5">
-                                {company.map((item) => (
-                                    <a
-                                        key={item.name}
-                                        href={item.href}
-                                        className="block rounded-lg px-3 py-2 text-sm font-semibold leading-6 text-gray-900 hover:bg-gray-50"
-                                    >
-                                        {item.name}
-                                    </a>
-                                ))}
-                            </Popover.Panel>
-                        </Transition>
-                    </Popover>
                 </Popover.Group>
                 <div className="hidden lg:flex lg:flex-1 lg:justify-end">
                     <Link to="/login">
