@@ -36,23 +36,15 @@ const AboutMeContent1 = () => {
                   />
                   <use href="#0ef284b8-28c2-426e-9442-8655d393522e" x={86} />
                 </svg>
-                <img
-                  src="https://tailwindui.com/img/logos/workcation-logo-white.svg"
-                  alt=""
-                  className="h-12 w-auto"
-                />
                 <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                   <p>
-                    “Amet amet eget scelerisque tellus sit neque faucibus non
-                    eleifend. Integer eu praesent at a. Ornare arcu gravida
-                    natoque erat et cursus tortor.”
+                    “Doubt is only removed by action. If you're not working, that's when doubt comes in.”
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 text-sm leading-6 text-gray-300">
                   <strong className="font-semibold text-white">
-                    Judith Rogers,
+                    Conor McGregor
                   </strong>{" "}
-                  CEO at Workcation
                 </figcaption>
               </figure>
             </div>
@@ -60,44 +52,32 @@ const AboutMeContent1 = () => {
           <div>
             <div className="text-base leading-7 text-gray-700 lg:max-w-lg">
               <p className="text-base font-semibold leading-7 text-indigo-600">
-                Company values
+                Who I Am
               </p>
               <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                On a mission to empower remote teams
+                The underdog, always!
               </h1>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  Faucibus commodo massa rhoncus, volutpat. Dignissim sed eget
-                  risus enim. Mattis mauris semper sed amet vitae sed turpis id.
-                  Id dolor praesent donec est. Odio penatibus risus viverra
-                  tellus varius sit neque erat velit. Faucibus commodo massa
-                  rhoncus, volutpat. Dignissim sed eget risus enim. Mattis
-                  mauris semper sed amet vitae sed turpis id.
+                As a relentless seeker of progress and empowerment, I am committed to catalyzing 
+                positive change in both my own life and the lives of those around me. Rooted in 
+                the dynamic field of software engineering, I embrace challenges as opportunities 
+                for growth, and I refuse to be confined by the limitations others may impose.
                 </p>
                 <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                  duis odio id et. Id blandit molestie auctor fermentum
-                  dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                  varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                  convallis ac tempor et ut. Ac lorem vel integer orci.
+                Driven by a burning desire to shatter expectations and redefine possibilities, I
+                vow to continuously push the boundaries of what is achievable. My journey is not 
+                just about personal success but about igniting a spark of inspiration in others, 
+                proving that with determination and resilience, any obstacle can be overcome.
                 </p>
-                <p className="mt-8">
-                  Et vitae blandit facilisi magna lacus commodo. Vitae sapien
-                  duis odio id et. Id blandit molestie auctor fermentum
-                  dignissim. Lacus diam tincidunt ac cursus in vel. Mauris
-                  varius vulputate et ultrices hac adipiscing egestas. Iaculis
-                  convallis ac tempor et ut. Ac lorem vel integer orci.
-                </p>
+                {/* <p className="mt-8">
+                Through innovation, perseverance, and unwavering determination, I aim to create a 
+                ripple effect of empowerment, leaving a lasting legacy of transformation in my wake. 
+                I am not merely a graduate of software engineering; I am a catalyst for change, a 
+                beacon of possibility, and a relentless force for progress. Together, let us embark 
+                on a journey of innovation, where the only limits are those we dare to challenge.
+                </p> */}
               </div>
-            </div>
-            <div className="mt-10 flex">
-              <a
-                href="#"
-                className="text-base font-semibold leading-7 text-indigo-600"
-              >
-                Learn more about our company{" "}
-                <span aria-hidden="true">&rarr;</span>
-              </a>
             </div>
           </div>
         </div>
