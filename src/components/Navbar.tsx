@@ -109,9 +109,8 @@ const Navbar = () => {
                             </Popover.Panel>
                         </Transition>
                     </Popover>
-
                     <a href="#" className="text-sm font-bold leading-6 text-black-500">
-                        The Work
+                        What I do
                     </a>
                     <a href="/aboutme" className="text-sm font-bold leading-6 text-black-500">
                         About Me

@@ -1,6 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
-
+import BlogPost from "./BlogPost";
 
 const posts = [
   {
@@ -10,11 +9,11 @@ const posts = [
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    date: "Mar 16, 2020",
+    "https://images.unsplash.com/photo-1597239450996-ea7c2c564412?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    date: "Jan 06, 2024",
     datetime: "2020-03-16",
     author: {
-      name: "Michael Foster",
+      name: "Haris Ejaz",
       imageUrl:
         "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
@@ -26,11 +25,11 @@ const posts = [
     description:
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
-      "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    date: "Mar 16, 2020",
+      "https://images.unsplash.com/photo-1610563166150-b34df4f3bcd6?q=80&w=2876&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    date: "Jan 12, 2024",
     datetime: "2020-03-16",
     author: {
-      name: "Michael Foster",
+      name: "Haris Ejaz",
       imageUrl:
         "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
@@ -43,21 +42,19 @@ const posts = [
       "Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.",
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    date: "Mar 16, 2020",
+    date: "Jan 15, 2024",
     datetime: "2020-03-16",
     author: {
-      name: "Michael Foster",
+      name: "Haris Ejaz",
       imageUrl:
         "https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80",
     },
   },
-  // More posts...
 ];
 
-const ThreeBlogsDisplay = () => {
 
+const BlogsDisplayBlogPage = () => {
   const navigate = useNavigate();
-
 
   return (
     <div className="bg-white py-24 sm:py-32">
@@ -124,4 +121,4 @@ const ThreeBlogsDisplay = () => {
   );
 };
 
-export default ThreeBlogsDisplay;
+export default BlogsDisplayBlogPage;

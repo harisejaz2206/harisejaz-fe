@@ -1,4 +1,14 @@
+import { useParams } from 'react-router-dom';
+
 const BlogHero = ()=> {
+    const { blogId } = useParams();
+
+    // Find the post by blogId
+  // const post = posts.find(post => post.id === parseInt(blogId));
+
+  // if (!post) {
+  //   return <div>Post not found</div>;
+  // }
     return (
       <div className="bg-white pb-16 pt-24 sm:pb-24 sm:pt-32 xl:pb-32">
         <div className="bg-gray-900 pb-20 sm:pb-24 xl:pb-0">

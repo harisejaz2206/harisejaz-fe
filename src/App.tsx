@@ -1,9 +1,10 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
 import AboutMe from "./pages/AboutMe";
 import Blog from "./pages/Blog";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import BlogPost from "./components/BlogPost";
 
 function App() {
   return (
@@ -36,6 +37,14 @@ function App() {
           element={
             <Layout>
               <Blog />
+            </Layout>
+          }
+        />
+        <Route
+          path="/blog/blog-listing/:blogId"
+          element={
+            <Layout>
+              <BlogPost />
             </Layout>
           }
         />
